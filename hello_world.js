@@ -1,8 +1,5 @@
-function sumNumbers(numbers) {
-  let total = 0;
-  for (let i = 0; i < numbers.length; i += 1) {
-    total += numbers[i];
-  }
+function sumNumbers(a, b) {
+  const total = a + b;
   return total;
 }
 
