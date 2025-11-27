@@ -1,10 +1,7 @@
-function sumNumbers(numbers) {
+function sumNumbers(numA, b) {
   let total = 0;
-  
-  if (numbers?.length) {
-    for (let i = 0; i < numbers.length; i += 1) {
-      total += numbers[i];
-    }
+  if (numA && b) {
+    total = numA + b;
   }
 
   return total;
